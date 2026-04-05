@@ -4,6 +4,11 @@ authors = ["Rust Training Team"]
 language = "en"
 src = "src"
 
+[languages]
+# 额外的语言映射：语言代码 = 源目录
+# 把中文翻译目录注册为 `zh`（可在网站中作为切换选项）
+zh = "src-zh"
+
 [build]
 build-dir = "book"
 
